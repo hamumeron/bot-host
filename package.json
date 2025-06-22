@@ -1,0 +1,13 @@
+{
+  "name": "bot-hosting",
+  "version": "1.0.0",
+  "description": "Discord Bot Hosting Service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
