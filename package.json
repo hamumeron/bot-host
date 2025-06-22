@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "vite build --config src/client/vite.config.js",
+　"build": "npx vite build --config src/client/vite.config.js"
     "start": "node src/server.js",
     "client": "vite --config src/client/vite.config.js",
     "dev": "concurrently \"npm run client\" \"npm run start\""
